@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD: Everything that DESCRIBES the contents of our project -->
+
+<head>
+    <!-- ALWAYS FIRST - Meta and title tags  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="HTML and CSS Breakout!">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Pedro A. González">
+
+    <title>HTML + CSS 🏛🎨</title>
+
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- BODY: Everything that RENDERS in our project -->
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-brand text-light">My App</div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header p-5">
+        <h2 class="header-title display-3">This is the title! 🏋🏻‍♀️</h2>
+        <p class="header-description">Wow I cant believe this awesome breakout, I'm learning a lot!</p>
+        <button type="button" class="btn btn-primary">Primary</button>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- SECTION NEW POST -->
+        <section class="new-post">
+            <h2>Create a post!</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="post-input" class="form-label">Type your new post!</label>
+                    <input type="text" class="form-control" id="post-input" aria-describedby="post-input-help">
+                    <div id="post-input-help" class="form-text">Make sure your post is awesome!</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <!-- SECTION POSTS CONTAINERS -->
+        <section class="posts-container">
+            <article class="post">Article 1</article>
+            <article class="post">Article 2</article>
+            <article class="post">Article 3</article>
+            <article class="post">Article 4</article>
+            <article class="post">Article 5</article>
+            <article class="post">Article 6</article>
+            <article class="post">Article 7</article>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark p-4 text-light">
+        <h4 class="footer-title">This is the footer! 🦶</h4>
+        <ul class="footer-menu list-unstyled">
+            <li><a href="#" class="text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-decoration-none">About</a></li>
+        </ul>
+        <small>Copyright ® 2023</small>
+    </footer>
+
+</body>
+
+</html>
