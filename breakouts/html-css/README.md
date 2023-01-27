@@ -11,3 +11,7 @@
 - [ ] What is bootstrap
 - [ ] Using bootstrap components
 - [ ] Q & A
+
+## Video
+
+[https://vimeo.com/793016826/ceaf9b4cab](https://vimeo.com/793016826/ceaf9b4cab)
