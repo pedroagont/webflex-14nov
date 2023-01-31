@@ -1,0 +1,22 @@
+main {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+  color: tomato;
+}
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article {
+  border: 2px solid black;
+  border-radius: 15px;
+  max-width: 33vw;
+  padding: 1em;
+  margin: 1em 0;
+}
+article img {
+  width: 100%;
+}
