@@ -319,3 +319,4 @@ WHERE songs.rating > (SELECT AVG(rating) FROM songs WHERE album_id = albums.id);
 - [Another Ranking of DBMSs](https://db-engines.com/en/ranking)
 - [SELECT Queries Order of Execution](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 - [SQL Joins Visualizer](https://sql-joins.leopard.in.ua/)
+- [Other SQL Joins Visualizer](https://joins.spathon.com)

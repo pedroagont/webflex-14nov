@@ -1,3 +1,4 @@
+-- DATA DEFINITION LANGUAGE
 DROP TABLE IF EXISTS songs;
 DROP TABLE IF EXISTS albums;
 
@@ -16,6 +17,7 @@ CREATE TABLE songs (
   rating FLOAT
 );
 
+-- DATA MANIPULATION LANGUAGE
 INSERT INTO albums (album_name, artist_name, release_date)
 VALUES  ('Homecoming: The Live Album', 'Beyonce', 'April 17, 2019'),
         ('On the Line', 'Jenny Lewis', 'March 22, 2019'),
